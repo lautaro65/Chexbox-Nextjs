@@ -1,5 +1,4 @@
-import Image from "next/image";
-import AnimatedCheckbox from "./components/AnimatedCheckbox/page";
+import AnimatedCheckbox from "./components/AnimatedCheckbox/AnimatedCheckbox";
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-200 via-pink-200 to-blue-200 flex items-center justify-center p-4">
