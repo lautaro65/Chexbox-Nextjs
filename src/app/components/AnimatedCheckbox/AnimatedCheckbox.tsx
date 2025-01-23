@@ -63,7 +63,7 @@ const AnimatedCheckbox: React.FC<AnimatedCheckboxProps> = ({ label, onChange }) 
 
   return (
     <motion.label 
-      className="flex items-center space-x-3 cursor-pointer select-none"
+      className="flex items-center mb-2  cursor-pointer select-none "
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
     >
@@ -106,7 +106,7 @@ const AnimatedCheckbox: React.FC<AnimatedCheckboxProps> = ({ label, onChange }) 
         </motion.svg>
       </motion.div>
       <motion.span
-        className="text-gray-800 font-medium text-lg"
+        className="text-gray-800 font-medium text-base ml-2"
         variants={labelVariants}
         animate={controls}
       >
